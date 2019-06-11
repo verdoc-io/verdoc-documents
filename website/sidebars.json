@@ -20,6 +20,29 @@
           "api_ref/signature_api/verbs_crud_signature/crud_signature_get",
           "api_ref/signature_api/verbs_crud_signature/crud_signature_delete"
         ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Transaction API",
+        "ids": [
+          "api_ref/transaction_api/crud_transaction",
+          "api_ref/transaction_api/verbs_crud_transaction/crud_transaction_post",
+          "api_ref/transaction_api/verbs_crud_transaction/crud_transaction_get",
+          "api_ref/transaction_api/verbs_crud_transaction/crud_transaction_delete",
+          "api_ref/transaction_api/request_confirmation_code",
+          "api_ref/transaction_api/verify_transaction"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Admin management API",
+        "ids": [
+          "api_ref/user_management_api/crud_user",
+          "api_ref/user_management_api/verbs_user_management_api/crud_user_post",
+          "api_ref/user_management_api/verbs_user_management_api/crud_user_get",
+          "api_ref/user_management_api/verbs_user_management_api/crud_user_delete",
+          "api_ref/user_management_api/verbs_user_management_api/crud_user_put"
+        ]
       }
     ],
     "Docusaurus": ["doc1", "doc6"],
