@@ -35,7 +35,7 @@
       },
       {
         "type": "subcategory",
-        "label": "Admin management API",
+        "label": "User management API",
         "ids": [
           "api_ref/user_management_api/crud_user",
           "api_ref/user_management_api/verbs_user_management_api/crud_user_post",
@@ -44,10 +44,7 @@
           "api_ref/user_management_api/verbs_user_management_api/crud_user_put"
         ]
       }
-    ],
-    "Docusaurus": ["doc1", "doc6"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

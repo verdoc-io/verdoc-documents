@@ -1,16 +1,16 @@
 ---
 id: crud_user_delete
 title: CRUD user [ DELETE ].
-sidebar_label: CRUD user [ DELETE ].
+sidebar_label: CRUD user [ DELETE ]
 ---
 
-  > ```DELETE``` CRUD user. 
+> `DELETE` CRUD user.
 
 **HTTP request**
 
- ```bash 
-  DELETE https://api.verdoc.io/v1/users
- ```
+```bash
+ DELETE https://api.verdoc.io/v1/users
+```
 
 **Request header**
 
@@ -20,10 +20,10 @@ sidebar_label: CRUD user [ DELETE ].
 
 **Request body**
 
-| Parameters |  Type   | Required | Package | Description   |
-| :--------- | :-----: | :------: | :-----: | ------------- |
-| user_id    | String  | Required |  free   | ```user_id``` |
-| force      | Boolean | Required |  free   | ```force```   |
+| Parameters |  Type   | Required | Package | Description |
+| :--------- | :-----: | :------: | :-----: | ----------- |
+| user_id    | String  | Required |  free   | `user_id`   |
+| force      | Boolean | Required |  free   | `force`     |
 
 **Response**
 
@@ -35,6 +35,6 @@ Returns the status code 200 and a JSON object with the following information.
 
 **Example request**
 
-  ~~~bash
-    curl https://verdoc.io/
-  ~~~
+```bash
+  curl https://verdoc.io/
+```

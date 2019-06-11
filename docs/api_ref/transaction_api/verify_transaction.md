@@ -1,7 +1,7 @@
 ---
 id: verify_transaction
 title: Verify transaction.
-sidebar_label: Verify transaction.
+sidebar_label: Verify transaction
 ---
 
 Verify transaction.

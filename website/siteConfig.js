@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: "Verdoc", // Title for your website.
-  tagline: "document for open api",
+  tagline: "Make your company paperless.",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,10 +38,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
+    { doc: "api_ref/login_token_api/issue-access-token", label: "Docs" },
     { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
-    { blog: true, label: "Blog" }
+    { page: "help", label: "Help" }
+    // { blog: true, label: "Blog" },
   ],
 
   // If you have users set above, you add it here:
@@ -54,26 +54,19 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: "#76ad73",
-    secondaryColor: "#527950"
+    primaryColor: "#5856d6",
+    secondaryColor: "#FFF"
   },
 
   /* Custom fonts for website */
-  /*
+
   fonts: {
-    myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
+    myFont: ["Courier", "Times New Roman", "Serif"],
+    myOtherFont: ["-apple-system", "system-ui"]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Verdoc.io`,
+  copyright: `Copyright © ${new Date().getFullYear()} The Existing company`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -90,7 +83,7 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg"
+  twitterImage: "img/undraw_tweetstorm.svg",
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
@@ -101,6 +94,10 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+  docsSideNavCollapsible: true,
+  scrollToTop: true,
+  enableUpdateTime: true,
+  enableUpdateBy: true
 };
 
 module.exports = siteConfig;
