@@ -1,0 +1,32 @@
+{
+  "docs": {
+    "API reference": [
+      {
+        "type": "subcategory",
+        "label": "Login Token API",
+        "ids": [
+          "api_ref/login_token_api/issue-access-token",
+          "api_ref/login_token_api/refresh-access-token",
+          "api_ref/login_token_api/revoke-access-token",
+          "api_ref/login_token_api/verify-access-token"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Signature API",
+        "ids": [
+          "api_ref/signature_api/crud_signature",
+          "api_ref/signature_api/verbs_crud_signature/crud_signature_post",
+          "api_ref/signature_api/verbs_crud_signature/crud_signature_get",
+          "api_ref/signature_api/verbs_crud_signature/crud_signature_delete"
+        ]
+      }
+    ],
+    "Docusaurus": ["doc1", "doc6"],
+    "First Category": ["doc2"],
+    "Second Category": ["doc3"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
