@@ -22,7 +22,7 @@ sidebar_label: CRUD transaction [ POST ].
 
 | Parameters     |            Type             | Required | Package | Description      |
 | :------------- | :-------------------------: | :------: | :-----: | ---------------- |
-| user           |         user_object         |    ✅    |  free   | `user`           |
+| user           |         user_object         |    ✅    |  free   | `users`          |
 | payload        |           String            |    ✅    |  free   | `payload`        |
 | payload_type   | ( json, xml, soup, string ) |    ✅    |  free   | `payload_type`   |
 | docutment_file |           String            |    ✅    |  free   | `docutment_file` |
