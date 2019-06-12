@@ -38,20 +38,29 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { href: "/", label: "Home" },
+    { href: "https://verdoc.io/", label: "Subscribe" },
     { doc: "api_ref/login_token_api/issue-access-token", label: "Docs" },
-    { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" }
-    // { blog: true, label: "Blog" },
+    { href: "https://github.com/verdoc-io/verdoc-documents", label: "Github" },
+    { search: true }
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/favicon.ico",
+  headerIcon: "img/verdoc_mono_white.svg",
   footerIcon: "img/favicon.ico",
   favicon: "img/favicon.ico",
 
+  algolia: {
+    apiKey: "e39d9c22c905c44f45f980217bd91cf1",
+    placeholder: "Ask me something",
+    indexName: "Verdoc"
+    // algoliaOptions: {
+    //   facetFilters: ["language:LANGUAGE", "version:VERSION"]
+    // }
+  },
   /* Colors for website */
   colors: {
     primaryColor: "#5856d6",
@@ -97,7 +106,8 @@ const siteConfig = {
   docsSideNavCollapsible: false,
   scrollToTop: true,
   enableUpdateTime: true,
-  enableUpdateBy: true
+  enableUpdateBy: true,
+  disableHeaderTitle: true
 };
 
 module.exports = siteConfig;
