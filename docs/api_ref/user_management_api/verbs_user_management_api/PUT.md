@@ -4,12 +4,12 @@ title: CRUD user [ PUT ].
 sidebar_label: CRUD user [ PUT ]
 ---
 
-> `PUT` CRUD user.
+<span class="badges put">put</span>
 
 **HTTP request**
 
 ```bash
- PUT https://api.verdoc.io/v1/users
+PUT https://api.verdoc.io/v1/users
 ```
 
 **Request header**
@@ -38,5 +38,5 @@ Returns the status code 200 and a JSON object with the following information.
 **Example request**
 
 ```bash
-  curl https://verdoc.io/
+curl https://verdoc.io/
 ```

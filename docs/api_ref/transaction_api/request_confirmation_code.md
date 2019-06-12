@@ -4,12 +4,12 @@ title: Request confirmation code.
 sidebar_label: Request confirmation code
 ---
 
-Request confirmation code.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/transaction/code
+POST https://api.verdoc.io/v1/transaction/code
 ```
 
 **Request header**

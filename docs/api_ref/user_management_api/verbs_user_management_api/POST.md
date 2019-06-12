@@ -4,12 +4,12 @@ title: CRUD user [ POST ].
 sidebar_label: CRUD user [ POST ]
 ---
 
-> `POST` CRUD user.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/users
+POST https://api.verdoc.io/v1/users
 ```
 
 **Request header**

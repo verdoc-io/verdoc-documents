@@ -4,12 +4,12 @@ title: CRUD transaction [ GET ].
 sidebar_label: CRUD transaction [ GET ].
 ---
 
-> `GET` CRUD transaction.
+<span class="badges get">get</span>
 
 **HTTP request**
 
 ```bash
- GET https://api.verdoc.io/v1/transaction
+GET https://api.verdoc.io/v1/transaction
 ```
 
 **URL parameters**

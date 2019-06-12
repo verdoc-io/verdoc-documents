@@ -4,12 +4,12 @@ title: CRUD signature [ GET ].
 sidebar_label: CRUD signature [ GET ]
 ---
 
-> `GET` CRUD signature.
+<span class="badges get">get</span>
 
 **HTTP request**
 
 ```bash
- GET https://api.verdoc.io/v1/signature
+GET https://api.verdoc.io/v1/signature
 ```
 
 **URL parameters**

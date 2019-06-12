@@ -4,12 +4,12 @@ title: CRUD transaction [ DELETE ].
 sidebar_label: CRUD transaction [ DELETE ].
 ---
 
-> `DELETE` CRUD transaction.
+<span class="badges delete">delete</span>
 
 **HTTP request**
 
 ```bash
- DELETE https://api.verdoc.io/v1/transaction
+DELETE https://api.verdoc.io/v1/transaction
 ```
 
 **Request header**
@@ -36,5 +36,5 @@ Returns the status code 200 and a JSON object with the following information.
 **Example request**
 
 ```bash
-  curl https://verdoc.io/
+curl https://verdoc.io/
 ```

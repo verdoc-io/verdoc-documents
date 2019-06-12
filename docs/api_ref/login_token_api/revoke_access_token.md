@@ -4,12 +4,12 @@ title: Revoke access token.
 sidebar_label: Revoke access token
 ---
 
-Revoke access token.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/auth/revoke
+POST https://api.verdoc.io/v1/auth/revoke
 ```
 
 **Request header**

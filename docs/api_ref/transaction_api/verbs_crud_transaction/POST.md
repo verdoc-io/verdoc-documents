@@ -4,12 +4,12 @@ title: CRUD transaction [ POST ].
 sidebar_label: CRUD transaction [ POST ].
 ---
 
-> `POST` CRUD transaction.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/transaction
+POST https://api.verdoc.io/v1/transaction
 ```
 
 **Request header**

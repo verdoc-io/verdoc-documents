@@ -4,12 +4,12 @@ title: Refresh access token.
 sidebar_label: Refresh access token
 ---
 
-Refresh access token.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/auth/refresh
+POST https://api.verdoc.io/v1/auth/refresh
 ```
 
 **Request header**

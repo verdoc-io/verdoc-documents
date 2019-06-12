@@ -4,12 +4,12 @@ title: CRUD user [ GET ].
 sidebar_label: CRUD user [ GET ]
 ---
 
-> `GET` CRUD user.
+<span class="badges get">get</span>
 
 **HTTP request**
 
 ```bash
- GET https://api.verdoc.io/v1/users
+GET https://api.verdoc.io/v1/users
 ```
 
 **URL parameters**

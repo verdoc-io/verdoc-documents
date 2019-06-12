@@ -4,14 +4,12 @@ title: Issue access token.
 sidebar_label: Issue access token
 ---
 
-<span style="color:green">**POST**</span>
-
-Issue access token.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/auth/token
+POST https://api.verdoc.io/v1/auth/token
 ```
 
 **Request header**
@@ -41,5 +39,5 @@ Returns the status code 200 and a JSON object with the following information.
 **Example request**
 
 ```bash
- curl https://verdoc.io/
+curl https://verdoc.io/
 ```

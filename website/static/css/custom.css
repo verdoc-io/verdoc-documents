@@ -1,6 +1,81 @@
 /* your custom css */
-span {
+span.badges {
+  /* span's docusaurus use block */
+  display: inline !important;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.3em 0.6em;
+}
+
+span.badges.post {
+  background-color: #009688;
+}
+
+span.badges.get {
+  background-color: #64b5f6;
+}
+
+span.badges.put {
+  background-color: #9575cd;
+}
+
+span.badges.delete {
+  background-color: #e57373;
+}
+
+pre {
+  position: relative;
+}
+
+pre code {
+  padding: 2em !important;
+  color: #fff !important;
+  background-color: #383342 !important;
+  border-radius: 6px;
+  opacity: 0.9;
+}
+
+/* pre code {
+  color: #e57373 !important;
+} */
+
+pre .btnIcon {
+  position: absolute;
+  top: 7px;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0;
+  color: #fff;
+  background-color: #6c738a;
+  height: 30px;
+  transition: all 0.25s ease-out;
+  padding: 0.25px 0.75em;
+  border-width: 0.5px;
   border-radius: 5px;
+}
+
+/* pre .btnIcon:hover { 
+} */
+
+.btnIcon__body {
+  align-items: center;
+  display: flex;
+}
+
+.btnIcon svg {
+  margin-right: 0.4em;
+}
+
+.btnIcon__label {
+  font-size: 11.4px;
+}
+
+.btnClipboard {
+  right: 7px;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

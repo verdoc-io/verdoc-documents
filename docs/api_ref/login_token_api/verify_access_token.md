@@ -4,12 +4,12 @@ title: Verify access token.
 sidebar_label: Verify access token
 ---
 
-Verify access token.
+<span class="badges get">get</span>
 
 **HTTP request**
 
 ```bash
- GET https://api.verdoc.io/v1/auth/verify
+GET https://api.verdoc.io/v1/auth/verify
 ```
 
 **URL parameters**

@@ -4,12 +4,12 @@ title: CRUD signature [ POST ].
 sidebar_label: CRUD signature [ POST ]
 ---
 
-> `POST` CRUD signature.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/signature
+POST https://api.verdoc.io/v1/signature
 ```
 
 **Request header**

@@ -4,12 +4,12 @@ title: Verify transaction.
 sidebar_label: Verify transaction
 ---
 
-Verify transaction.
+<span class="badges post">post</span>
 
 **HTTP request**
 
 ```bash
- POST https://api.verdoc.io/v1/transaction/verify
+POST https://api.verdoc.io/v1/transaction/verify
 ```
 
 **Request header**

@@ -83,7 +83,13 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [
+    "https://buttons.github.io/buttons.js",
+    "https://code.jquery.com/jquery-3.4.1.js",
+    "/js/cutter.js",
+    "/js/codeblock.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"
+  ],
 
   // On page navigation for the current documentation page.
   onPageNav: "separate",

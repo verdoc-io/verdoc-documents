@@ -4,12 +4,12 @@ title: CRUD signature [ DELETE ].
 sidebar_label: CRUD signature [ DELETE ]
 ---
 
-> `DELETE` CRUD signature.
+<span class="badges delete">delete</span>
 
 **HTTP request**
 
 ```bash
- DELETE https://api.verdoc.io/v1/signature
+DELETE https://api.verdoc.io/v1/signature
 ```
 
 **Request header**
