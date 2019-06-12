@@ -22,7 +22,7 @@ sidebar_label: CRUD signature [ POST ]
 
 | Parameters      |    Type     | Required | Package | Description       |
 | :-------------- | :---------: | :------: | :-----: | ----------------- |
-| image_signature |   String    | Required |  free   | `image_signature` |
+| image_signature |   String    |    ✅    |  free   | `image_signature` |
 | user            | user_object | Optional |  free   | `user`            |
 
 **Response**

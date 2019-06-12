@@ -4,30 +4,30 @@ title: Verify access token.
 sidebar_label: Verify access token
 ---
 
-  Verify access token.
+Verify access token.
 
 **HTTP request**
 
- ```bash 
-  GET https://api.verdoc.io/v1/auth/verify
- ```
+```bash
+ GET https://api.verdoc.io/v1/auth/verify
+```
 
 **URL parameters**
 
 | Parameter    | Required | Package | Description  |
 | :----------- | :------: | :-----: | :----------- |
-| access_token | Required |  free   | Access token |
+| access_token |    ✅    |  free   | Access token |
 
 **Response**
 
 Returns the status code 200 and a JSON object with the following information.
 
-| Property |    Type     | Description         |
-| :------- | :---------: | ------------------- |
-| 200      | Status code | ```access_token ``` |
+| Property |    Type     | Description    |
+| :------- | :---------: | -------------- |
+| 200      | Status code | `access_token` |
 
 **Example request**
 
-  ~~~bash
-  curl https://verdoc.io/
-  ~~~
+```bash
+curl https://verdoc.io/
+```

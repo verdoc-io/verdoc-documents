@@ -25,8 +25,8 @@ Request confirmation code.
 | channel        | String | Optional | premium | `channel` mobile, email |
 | mobile_number  | String | Optional | premium | `mobile_number`         |
 | email          | String | Optional | premium | `email`                 |
-| transaction_id | String | Required |  free   | `transaction_id`        |
-| payload        | String | Required |  free   | `payload`               |
+| transaction_id | String |    ✅    |  free   | `transaction_id`        |
+| payload        | String |    ✅    |  free   | `payload`               |
 
 **Response**
 

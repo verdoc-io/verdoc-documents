@@ -4,13 +4,13 @@ title: CRUD transaction [ DELETE ].
 sidebar_label: CRUD transaction [ DELETE ].
 ---
 
-  > ```DELETE``` CRUD transaction. 
+> `DELETE` CRUD transaction.
 
 **HTTP request**
 
- ```bash 
-  DELETE https://api.verdoc.io/v1/transaction
- ```
+```bash
+ DELETE https://api.verdoc.io/v1/transaction
+```
 
 **Request header**
 
@@ -20,11 +20,10 @@ sidebar_label: CRUD transaction [ DELETE ].
 
 **Request body**
 
-| Parameters     |  Type   | Required | Package | Description          |
-| :------------- | :-----: | :------: | :-----: | -------------------- |
-| transaction_id | String  | Required |  free   | ```transaction_id``` |
-| force          | Boolean | Required |  free   | ```force```          |
-
+| Parameters     |  Type   | Required | Package | Description      |
+| :------------- | :-----: | :------: | :-----: | ---------------- |
+| transaction_id | String  |    ✅    |  free   | `transaction_id` |
+| force          | Boolean |    ✅    |  free   | `force`          |
 
 **Response**
 
@@ -36,6 +35,6 @@ Returns the status code 200 and a JSON object with the following information.
 
 **Example request**
 
-  ~~~bash
-    curl https://verdoc.io/
-  ~~~
+```bash
+  curl https://verdoc.io/
+```

@@ -22,10 +22,10 @@ sidebar_label: CRUD user [ PUT ]
 
 | Parameters    |  Type  | Required | Package | Description     |
 | :------------ | :----: | :------: | :-----: | --------------- |
-| user_id       | String | Required |  free   | `user_id`       |
-| name          | String | Required |  free   | `name`          |
-| email         | String | Required |  free   | `email`         |
-| mobile_number | String | Required |  free   | `mobile_number` |
+| user_id       | String |    ✅    |  free   | `user_id`       |
+| name          | String |    ✅    |  free   | `name`          |
+| email         | String |    ✅    |  free   | `email`         |
+| mobile_number | String |    ✅    |  free   | `mobile_number` |
 
 **Response**
 

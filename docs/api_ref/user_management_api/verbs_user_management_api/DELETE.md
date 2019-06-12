@@ -22,8 +22,8 @@ sidebar_label: CRUD user [ DELETE ]
 
 | Parameters |  Type   | Required | Package | Description |
 | :--------- | :-----: | :------: | :-----: | ----------- |
-| user_id    | String  | Required |  free   | `user_id`   |
-| force      | Boolean | Required |  free   | `force`     |
+| user_id    | String  |    ✅    |  free   | `user_id`   |
+| force      | Boolean |    ✅    |  free   | `force`     |
 
 **Response**
 

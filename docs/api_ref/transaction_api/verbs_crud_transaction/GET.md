@@ -16,7 +16,7 @@ sidebar_label: CRUD transaction [ GET ].
 
 | Parameter      | Required | Package | Description    |
 | :------------- | :------: | :-----: | :------------- |
-| transaction_id | Required |  free   | transaction_id |
+| transaction_id |    ✅    |  free   | transaction_id |
 
 **Response**
 

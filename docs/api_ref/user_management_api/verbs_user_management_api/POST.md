@@ -22,11 +22,11 @@ sidebar_label: CRUD user [ POST ]
 
 | Parameters    |  Type  | Required | Package | Description     |
 | :------------ | :----: | :------: | :-----: | --------------- |
-| name          | String | Required |  free   | `name`          |
-| email         | String | Required |  free   | `email`         |
-| mobile_number | String | Required |  free   | `mobile_number` |
-| company_name  | String | Required |  free   | `company_name`  |
-| time_stamp    | String | Required |  free   | `time_stamp`    |
+| name          | String |    ✅    |  free   | `name`          |
+| email         | String |    ✅    |  free   | `email`         |
+| mobile_number | String |    ✅    |  free   | `mobile_number` |
+| company_name  | String |    ✅    |  free   | `company_name`  |
+| time_stamp    | String |    ✅    |  free   | `time_stamp`    |
 
 **Response**
 

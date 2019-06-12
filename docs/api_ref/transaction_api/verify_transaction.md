@@ -22,11 +22,11 @@ Verify transaction.
 
 | Parameters     |  Type  | Required | Package | Description      |
 | :------------- | :----: | :------: | :-----: | ---------------- |
-| transaction_id | String | Required |  free   | `transaction_id` |
-| mobile_number  | String | Required |  free   | `mobile_number`  |
-| payload        | String | Required |  free   | `payload`        |
-| code           | String | Required |  free   | `code`           |
-| signature_hash | String | Required |  free   | `signature_hash` |
+| transaction_id | String |    ✅    |  free   | `transaction_id` |
+| mobile_number  | String |    ✅    |  free   | `mobile_number`  |
+| payload        | String |    ✅    |  free   | `payload`        |
+| code           | String |    ✅    |  free   | `code`           |
+| signature_hash | String |    ✅    |  free   | `signature_hash` |
 
 **Response**
 

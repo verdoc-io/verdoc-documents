@@ -4,13 +4,13 @@ title: Revoke access token.
 sidebar_label: Revoke access token
 ---
 
-  Revoke access token.
+Revoke access token.
 
 **HTTP request**
 
- ```bash 
-  POST https://api.verdoc.io/v1/auth/revoke
- ```
+```bash
+ POST https://api.verdoc.io/v1/auth/revoke
+```
 
 **Request header**
 
@@ -20,20 +20,20 @@ sidebar_label: Revoke access token
 
 **Request body**
 
-| Parameters    |  Type  | Required | Package | Description         |
-| :------------ | :----: | :------: | :-----: | ------------------- |
-| refresh_token | String | Required |  free   | ```refresh_token``` |
+| Parameters    |  Type  | Required | Package | Description     |
+| :------------ | :----: | :------: | :-----: | --------------- |
+| refresh_token | String |    ✅    |  free   | `refresh_token` |
 
 **Response**
 
 Returns the status code 200 and a JSON object with the following information.
 
-| Property |  Type  | Description         |
-| :------- | :----: | ------------------- |
-| 200      | String | ```access_token ``` |
+| Property |  Type  | Description    |
+| :------- | :----: | -------------- |
+| 200      | String | `access_token` |
 
 **Example request**
 
-  ~~~bash
-  curl https://verdoc.io/
-  ~~~
+```bash
+curl https://verdoc.io/
+```

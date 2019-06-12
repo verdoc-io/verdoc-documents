@@ -16,7 +16,7 @@ sidebar_label: CRUD signature [ GET ]
 
 | Parameter      | Required | Package | Description    |
 | :------------- | :------: | :-----: | :------------- |
-| signature_hash | Required |  free   | signature_hash |
+| signature_hash |    ✅    |  free   | signature_hash |
 
 **Response**
 

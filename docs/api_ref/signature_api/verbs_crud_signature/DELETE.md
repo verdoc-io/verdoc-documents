@@ -22,7 +22,7 @@ sidebar_label: CRUD signature [ DELETE ]
 
 | Parameters     |  Type  | Required | Package | Description      |
 | :------------- | :----: | :------: | :-----: | ---------------- |
-| signature_hash | String | Required |  free   | `signature_hash` |
+| signature_hash | String |    ✅    |  free   | `signature_hash` |
 
 **Response**
 
