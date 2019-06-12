@@ -1,16 +1,16 @@
 ---
-id: verify_transaction.
+id: verify_transaction
 title: Verify transaction.
-sidebar_label: Verify transaction.
+sidebar_label: Verify transaction
 ---
 
-  Verify transaction.
+Verify transaction.
 
 **HTTP request**
 
- ```bash 
-  POST https://api.verdoc.io/v1/transaction/verify
- ```
+```bash
+ POST https://api.verdoc.io/v1/transaction/verify
+```
 
 **Request header**
 
@@ -20,14 +20,13 @@ sidebar_label: Verify transaction.
 
 **Request body**
 
-| Parameters     |  Type  | Required | Package | Description          |
-| :------------- | :----: | :------: | :-----: | -------------------- |
-| transaction_id | String | Required |  free   | ```transaction_id``` |
-| mobile_number  | String | Required |  free   | ```mobile_number```  |
-| payload        | String | Required |  free   | ```payload```        |
-| code           | String | Required |  free   | ```code```           |
-| signature_hash | String | Required |  free   | ```signature_hash``` |
-
+| Parameters     |  Type  | Required | Package | Description      |
+| :------------- | :----: | :------: | :-----: | ---------------- |
+| transaction_id | String | Required |  free   | `transaction_id` |
+| mobile_number  | String | Required |  free   | `mobile_number`  |
+| payload        | String | Required |  free   | `payload`        |
+| code           | String | Required |  free   | `code`           |
+| signature_hash | String | Required |  free   | `signature_hash` |
 
 **Response**
 
@@ -39,6 +38,6 @@ Returns the status code 200 and a JSON object with the following information.
 
 **Example request**
 
-  ~~~bash
-  curl https://verdoc.io/
-  ~~~
+```bash
+curl https://verdoc.io/
+```

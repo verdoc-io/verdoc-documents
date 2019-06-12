@@ -1,16 +1,16 @@
 ---
 id: crud_signature_get
 title: CRUD signature [ GET ].
-sidebar_label: CRUD signature [ GET ].
+sidebar_label: CRUD signature [ GET ]
 ---
 
-  > ```GET``` CRUD signature. 
+> `GET` CRUD signature.
 
 **HTTP request**
 
- ```bash 
-  GET https://api.verdoc.io/v1/signature
- ```
+```bash
+ GET https://api.verdoc.io/v1/signature
+```
 
 **URL parameters**
 
@@ -22,13 +22,13 @@ sidebar_label: CRUD signature [ GET ].
 
 Returns the status code 200 and a JSON object with the following information.
 
-| Property        |  Type  | Description            |
-| :-------------- | :----: | ---------------------- |
-| name_signature  | String | ```name_signature ```  |
-| image_signature | String | ```image_signature ``` |
+| Property        |  Type  | Description       |
+| :-------------- | :----: | ----------------- |
+| name_signature  | String | `name_signature`  |
+| image_signature | String | `image_signature` |
 
 **Example request**
 
-  ~~~bash
-  curl https://verdoc.io/
-  ~~~
+```bash
+curl https://verdoc.io/
+```

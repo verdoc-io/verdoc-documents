@@ -1,16 +1,16 @@
 ---
 id: crud_user_get
 title: CRUD user [ GET ].
-sidebar_label: CRUD user [ GET ].
+sidebar_label: CRUD user [ GET ]
 ---
 
-  > ```GET``` CRUD user. 
+> `GET` CRUD user.
 
 **HTTP request**
 
- ```bash 
-  GET https://api.verdoc.io/v1/users
- ```
+```bash
+ GET https://api.verdoc.io/v1/users
+```
 
 **URL parameters**
 None.
@@ -19,12 +19,12 @@ None.
 
 Returns the status code 200 and a JSON object with the following information.
 
-| Property      |  Type  | Description          |
-| :------------ | :----: | -------------------- |
-| list of users | String | ```list of users ``` |
- 
+| Property      |  Type  | Description     |
+| :------------ | :----: | --------------- |
+| list of users | String | `list of users` |
+
 **Example request**
 
-  ~~~bash
-  curl https://verdoc.io/
-  ~~~
+```bash
+curl https://verdoc.io/
+```
