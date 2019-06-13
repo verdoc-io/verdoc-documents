@@ -1,7 +1,7 @@
 ---
-id: crud_transaction_post
-title: CRUD transaction [ POST ].
-sidebar_label: CRUD transaction [ POST ].
+id: open_transaction
+title: Open transaction.
+sidebar_label: Open transaction
 ---
 
 <span class="badges post">post</span>

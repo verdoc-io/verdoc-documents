@@ -1,7 +1,7 @@
 ---
-id: crud_user_post
-title: CRUD user [ POST ].
-sidebar_label: CRUD user [ POST ]
+id: create_new_user
+title: Create new user.
+sidebar_label: Create new user
 ---
 
 <span class="badges post">post</span>

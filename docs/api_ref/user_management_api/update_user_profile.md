@@ -1,7 +1,7 @@
 ---
-id: crud_user_put
-title: CRUD user [ PUT ].
-sidebar_label: CRUD user [ PUT ]
+id: update_user_profile
+title: Update user profile.
+sidebar_label: Update user profile
 ---
 
 <span class="badges put">put</span>

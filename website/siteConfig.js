@@ -25,6 +25,9 @@ const siteConfig = {
   tagline: "Make your company paperless.",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
+  subscribeLanding: "https://verdoc.io/",
+  existingLanding: "https://existing.co/",
+  githubUrl: "https://github.com/verdoc-io/verdoc-documents",
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -50,7 +53,8 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: "img/verdoc_mono_white.svg",
-  footerIcon: "img/favicon.ico",
+  footerIcon: "img/v_white_with_sign.svg",
+  footerTheExisting: "img/existing_white.svg",
   favicon: "img/favicon.ico",
 
   algolia: {
@@ -64,7 +68,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: "#5856d6",
-    secondaryColor: "#FFF"
+    secondaryColor: "#7a78d4"
   },
 
   /* Custom fonts for website */
@@ -75,7 +79,7 @@ const siteConfig = {
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} The Existing company`,
+  copyright: `© ${new Date().getFullYear()} Verdoc. All Rights Reserved.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -86,6 +90,7 @@ const siteConfig = {
   scripts: [
     "https://buttons.github.io/buttons.js",
     "https://code.jquery.com/jquery-3.4.1.js",
+    // "https://cdnjs.cloudflare.com/ajax/libs/styled-components/4.3.1/styled-components.min.js",
     "/js/cutter.js",
     "/js/codeblock.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"

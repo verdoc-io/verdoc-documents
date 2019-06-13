@@ -15,20 +15,18 @@
         "type": "subcategory",
         "label": "Signature API",
         "ids": [
-          "api_ref/signature_api/crud_signature",
-          "api_ref/signature_api/verbs_crud_signature/crud_signature_post",
-          "api_ref/signature_api/verbs_crud_signature/crud_signature_get",
-          "api_ref/signature_api/verbs_crud_signature/crud_signature_delete"
+          "api_ref/signature_api/create_new_ignature",
+          "api_ref/signature_api/get_signature_information",
+          "api_ref/signature_api/delete_signature"
         ]
       },
       {
         "type": "subcategory",
         "label": "Transaction API",
         "ids": [
-          "api_ref/transaction_api/crud_transaction",
-          "api_ref/transaction_api/verbs_crud_transaction/crud_transaction_post",
-          "api_ref/transaction_api/verbs_crud_transaction/crud_transaction_get",
-          "api_ref/transaction_api/verbs_crud_transaction/crud_transaction_delete",
+          "api_ref/transaction_api/open_transaction",
+          "api_ref/transaction_api/get_transaction_informations",
+          "api_ref/transaction_api/cancel_transaction",
           "api_ref/transaction_api/request_confirmation_code",
           "api_ref/transaction_api/verify_transaction"
         ]
@@ -37,11 +35,11 @@
         "type": "subcategory",
         "label": "User management API",
         "ids": [
-          "api_ref/user_management_api/crud_user",
-          "api_ref/user_management_api/verbs_user_management_api/crud_user_post",
-          "api_ref/user_management_api/verbs_user_management_api/crud_user_get",
-          "api_ref/user_management_api/verbs_user_management_api/crud_user_delete",
-          "api_ref/user_management_api/verbs_user_management_api/crud_user_put"
+          "api_ref/user_management_api/create_new_user",
+          "api_ref/user_management_api/get_list_of_user_profile",
+          "api_ref/user_management_api/get_specific_user",
+          "api_ref/user_management_api/delete_user",
+          "api_ref/user_management_api/update_user_profile"
         ]
       }
     ]

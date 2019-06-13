@@ -1,7 +1,7 @@
 ---
-id: crud_signature_post
-title: CRUD signature [ POST ].
-sidebar_label: CRUD signature [ POST ]
+id: create_new_ignature
+title: Create new signature.
+sidebar_label: Create new signature
 ---
 
 <span class="badges post">post</span>

@@ -1,7 +1,7 @@
 ---
-id: crud_signature_delete
-title: CRUD signature [ DELETE ].
-sidebar_label: CRUD signature [ DELETE ]
+id: delete_signature
+title: Delete signature.
+sidebar_label: Delete signature
 ---
 
 <span class="badges delete">delete</span>

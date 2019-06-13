@@ -1,7 +1,7 @@
 ---
-id: crud_user_delete
-title: CRUD user [ DELETE ].
-sidebar_label: CRUD user [ DELETE ]
+id: delete_user
+title: Delete user.
+sidebar_label: Delete user
 ---
 
 <span class="badges delete">delete</span>

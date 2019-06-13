@@ -1,7 +1,7 @@
 ---
-id: crud_transaction_get
-title: CRUD transaction [ GET ].
-sidebar_label: CRUD transaction [ GET ].
+id: get_transaction_informations
+title: Get transaction informations.
+sidebar_label: Get transaction informations
 ---
 
 <span class="badges get">get</span>

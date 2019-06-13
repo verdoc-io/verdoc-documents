@@ -1,7 +1,7 @@
 ---
-id: crud_transaction_delete
-title: CRUD transaction [ DELETE ].
-sidebar_label: CRUD transaction [ DELETE ].
+id: cancel_transaction
+title: Cancel transaction.
+sidebar_label: Cancel transaction
 ---
 
 <span class="badges delete">delete</span>

@@ -1,7 +1,7 @@
 ---
-id: crud_user_get
-title: CRUD user [ GET ].
-sidebar_label: CRUD user [ GET ]
+id: get_list_of_user_profile
+title: Get list of user profile.
+sidebar_label: Get list of user profile
 ---
 
 <span class="badges get">get</span>

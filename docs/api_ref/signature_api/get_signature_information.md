@@ -1,7 +1,7 @@
 ---
-id: crud_signature_get
-title: CRUD signature [ GET ].
-sidebar_label: CRUD signature [ GET ]
+id: get_signature_information
+title: Get signature information.
+sidebar_label: Get signature information
 ---
 
 <span class="badges get">get</span>

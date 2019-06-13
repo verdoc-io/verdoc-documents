@@ -19,7 +19,7 @@ span.badges.get {
 }
 
 span.badges.put {
-  background-color: #9575cd;
+  background-color: #998dce;
 }
 
 span.badges.delete {
@@ -77,7 +77,18 @@ pre .btnIcon {
 .btnClipboard {
   right: 7px;
 }
+@media (max-width: 736px) {
+  .footer_verdoc {
+    padding-bottom: 2em;
+  }
+  .footer_left {
+    display: block !important;
+  }
 
+  .footer_right {
+    padding-left: 0;
+  }
+}
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
