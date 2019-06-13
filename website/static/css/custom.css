@@ -77,6 +77,15 @@ pre .btnIcon {
 .btnClipboard {
   right: 7px;
 }
+
+p > strong {
+  font-weight: 700;
+  color: #423c5e;
+  /* border-left: 0.2em solid #8a81b3;
+  padding-left: 0.7em; */
+  font-size: 1.1em;
+}
+
 @media (max-width: 736px) {
   .footer_verdoc {
     padding-bottom: 2em;

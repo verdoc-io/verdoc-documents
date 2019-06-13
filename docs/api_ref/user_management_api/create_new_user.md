@@ -9,7 +9,7 @@ sidebar_label: Create new user
 **HTTP request**
 
 ```bash
-POST https://api.verdoc.io/v1/users
+POST https://api.verdoc.io/v1/users/create
 ```
 
 **Request header**

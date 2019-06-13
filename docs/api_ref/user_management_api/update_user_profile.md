@@ -9,7 +9,7 @@ sidebar_label: Update user profile
 **HTTP request**
 
 ```bash
-PUT https://api.verdoc.io/v1/users
+PUT https://api.verdoc.io/v1/users/profile
 ```
 
 **Request header**

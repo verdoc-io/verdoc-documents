@@ -9,7 +9,7 @@ sidebar_label: Delete user
 **HTTP request**
 
 ```bash
-DELETE https://api.verdoc.io/v1/users
+DELETE https://api.verdoc.io/v1/users/profile
 ```
 
 **Request header**

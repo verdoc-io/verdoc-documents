@@ -9,7 +9,7 @@ sidebar_label: Get specific user
 **HTTP request**
 
 ```bash
-GET https://api.verdoc.io/v1/users
+GET https://api.verdoc.io/v1/users/profile
 ```
 
 **URL parameters**

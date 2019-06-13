@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "public": "build/Verdoc",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
