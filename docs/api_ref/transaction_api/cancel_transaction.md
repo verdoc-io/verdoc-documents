@@ -5,27 +5,39 @@ sidebar_label: Cancel transaction
 ---
 
 <span class="badges delete">delete</span>
+<br/>
 
 **HTTP request**
+
+---
 
 ```bash
 DELETE https://api.verdoc.io/v1/transaction
 ```
 
+<br/>
 **Request header**
+
+---
 
 | Request header | Description                      |
 | :------------- | :------------------------------- |
 | Content-Type   | application/x-www-form-urlencode |
 
+<br/>
 **Request body**
+
+---
 
 | Parameters     |  Type   | Required | Package | Description      |
 | :------------- | :-----: | :------: | :-----: | ---------------- |
 | transaction_id | String  |    ✅    |  free   | `transaction_id` |
 | force          | Boolean |    ✅    |  free   | `force`          |
 
+<br/>
 **Response**
+
+---
 
 Returns the status code 200 and a JSON object with the following information.
 
@@ -33,7 +45,10 @@ Returns the status code 200 and a JSON object with the following information.
 | :------- | :---------: | ----------- |
 | 200      | Status code | Status code |
 
+<br/>
 **Example request**
+
+---
 
 ```bash
 curl https://verdoc.io/

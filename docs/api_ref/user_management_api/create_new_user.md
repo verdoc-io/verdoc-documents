@@ -5,20 +5,29 @@ sidebar_label: Create new user
 ---
 
 <span class="badges post">post</span>
+<br/>
 
 **HTTP request**
+
+---
 
 ```bash
 POST https://api.verdoc.io/v1/users/create
 ```
 
+<br/>
 **Request header**
+
+---
 
 | Request header | Description                      |
 | :------------- | :------------------------------- |
 | Content-Type   | application/x-www-form-urlencode |
 
+<br/>
 **Request body**
+
+---
 
 | Parameters    |  Type  | Required | Package | Description     |
 | :------------ | :----: | :------: | :-----: | --------------- |
@@ -28,7 +37,10 @@ POST https://api.verdoc.io/v1/users/create
 | company_name  | String |    ✅    |  free   | `company_name`  |
 | time_stamp    | String |    ✅    |  free   | `time_stamp`    |
 
+<br/>
 **Response**
+
+---
 
 Returns the status code 200 and a JSON object with the following information.
 
@@ -36,7 +48,10 @@ Returns the status code 200 and a JSON object with the following information.
 | :------- | :----: | ----------- |
 | user_id  | String | `user_id`   |
 
+<br/>
 **Example request**
+
+---
 
 ```bash
 curl https://verdoc.io/

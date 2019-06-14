@@ -5,17 +5,26 @@ sidebar_label: Get list of user profile
 ---
 
 <span class="badges get">get</span>
+<br/>
 
 **HTTP request**
+
+---
 
 ```bash
 GET https://api.verdoc.io/v1/users
 ```
 
+<br/>
 **URL parameters**
-None.
 
+---
+
+None.
+<br/>
 **Response**
+
+---
 
 Returns the status code 200 and a JSON object with the following information.
 
@@ -23,7 +32,10 @@ Returns the status code 200 and a JSON object with the following information.
 | :------------ | :----: | --------------- |
 | list of users | String | `list of users` |
 
+<br/>
 **Example request**
+
+---
 
 ```bash
 curl https://verdoc.io/

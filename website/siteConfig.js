@@ -93,7 +93,7 @@ const siteConfig = {
     // "https://cdnjs.cloudflare.com/ajax/libs/styled-components/4.3.1/styled-components.min.js",
     "/js/cutter.js",
     "/js/codeblock.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"
+    "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"
   ],
 
   // On page navigation for the current documentation page.
@@ -113,7 +113,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  // repoUrl: 'https://github.com/facebook/test-site',
   docsSideNavCollapsible: false,
   scrollToTop: true,
   enableUpdateTime: true,

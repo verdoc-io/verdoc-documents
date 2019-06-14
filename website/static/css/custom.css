@@ -1,4 +1,34 @@
 /* your custom css */
+body {
+  font-size: 14px;
+}
+hr {
+  margin: -0.7em auto 1em auto;
+}
+tr > th {
+  background-color: #ededf7;
+  color: #383342;
+  /* border-color: #000; */
+}
+
+tr > td,
+tr > th {
+  border-width: 0;
+  border: none;
+}
+tr > td {
+  font-size: 1em;
+}
+table tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+table tr {
+  background-color: transparent;
+  /* border-top: 0; */
+  border-top: 0.02px solid #e4e4e4;
+}
+
 span.badges {
   /* span's docusaurus use block */
   display: inline !important;
@@ -84,6 +114,10 @@ p > strong {
   /* border-left: 0.2em solid #8a81b3;
   padding-left: 0.7em; */
   font-size: 1.1em;
+}
+
+.social_footer:hover {
+  color: white !important;
 }
 
 @media (max-width: 736px) {

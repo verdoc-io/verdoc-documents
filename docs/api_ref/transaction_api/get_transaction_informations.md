@@ -5,20 +5,29 @@ sidebar_label: Get transaction informations
 ---
 
 <span class="badges get">get</span>
+<br/>
 
 **HTTP request**
+
+---
 
 ```bash
 GET https://api.verdoc.io/v1/transaction
 ```
 
+<br/>
 **URL parameters**
+
+---
 
 | Parameter      | Required | Package | Description    |
 | :------------- | :------: | :-----: | :------------- |
 | transaction_id |    ✅    |  free   | transaction_id |
 
+<br/>
 **Response**
+
+---
 
 Returns the status code 200 and a JSON object with the following information.
 
@@ -32,7 +41,10 @@ Returns the status code 200 and a JSON object with the following information.
 | payload_type   | String | `payload_type` ( json, xml, soup, string )  |
 | docutment_file | String | `docutment_file` (url)                      |
 
+<br/>
 **Example request**
+
+---
 
 ```bash
 curl https://verdoc.io/

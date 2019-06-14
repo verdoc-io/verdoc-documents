@@ -5,20 +5,28 @@ sidebar_label: Open transaction
 ---
 
 <span class="badges post">post</span>
-
+<br/>
 **HTTP request**
+
+---
 
 ```bash
 POST https://api.verdoc.io/v1/transaction
 ```
 
+<br/>
 **Request header**
+
+---
 
 | Request header | Description                      |
 | :------------- | :------------------------------- |
 | Content-Type   | application/x-www-form-urlencode |
 
+<br/>
 **Request body**
+
+---
 
 | Parameters     |            Type             | Required | Package | Description      |
 | :------------- | :-------------------------: | :------: | :-----: | ---------------- |
@@ -27,7 +35,10 @@ POST https://api.verdoc.io/v1/transaction
 | payload_type   | ( json, xml, soup, string ) |    ✅    |  free   | `payload_type`   |
 | docutment_file |           String            |    ✅    |  free   | `docutment_file` |
 
+<br/>
 **Response**
+
+---
 
 Returns the status code 200 and a JSON object with the following information.
 
@@ -35,7 +46,10 @@ Returns the status code 200 and a JSON object with the following information.
 | :------------- | :----: | ---------------- |
 | transaction_id | String | `transaction_id` |
 
+<br/>
 **Example request**
+
+---
 
 ```bash
 curl https://verdoc.io/

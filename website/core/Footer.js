@@ -23,17 +23,30 @@ class Footer extends React.Component {
 
   render() {
     const styles = {
+      footerExisting: {
+        textAlign: "center",
+        width: "auto"
+      },
+      powerBy: {
+        textAlign: "center",
+        color: "rgba(255, 255, 255, 0.4)"
+      },
       labelComunity: {
         color: "rgba(255, 255, 255, 0.6)"
       },
       sitemapRight: {
         paddingLeft: "0"
       },
-
       sitemapLeft: {
         display: "flex",
         justifyContent: "flex-end",
         paddingRight: "5em"
+      },
+      routeLeft: {
+        flex: "initial"
+      },
+      footerLeft: {
+        paddingRight: "4em"
       }
     };
 
@@ -41,7 +54,7 @@ class Footer extends React.Component {
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
           <div style={styles.sitemapLeft} className="footer_left">
-            <a href={this.props.config.baseUrl} style={{ paddingRight: "4em" }}>
+            <a href={this.props.config.baseUrl} style={styles.footerLeft}>
               {this.props.config.footerIcon && (
                 <img
                   src={this.props.config.baseUrl + this.props.config.footerIcon}
@@ -50,7 +63,7 @@ class Footer extends React.Component {
                 />
               )}
             </a>
-            <div style={{ flex: "initial" }}>
+            <div style={styles.routeLeft}>
               <a href={this.props.config.baseUrl}>
                 <h5>Home</h5>
               </a>
@@ -74,18 +87,22 @@ class Footer extends React.Component {
               <h5>Communitry</h5>
             </a>
             <a href={`${this.props.config.baseUrl}blog`}>
-              <h5 style={styles.labelComunity}>Facebook</h5>
+              <h5 style={styles.labelComunity} className="social_footer">
+                Facebook
+              </h5>
             </a>
 
             <a href={this.props.config.githubUrl}>
-              <h5 style={styles.labelComunity}>GitHub</h5>
+              <h5 style={styles.labelComunity} className="social_footer">
+                GitHub
+              </h5>
             </a>
 
             <a
               className="github-button"
-              href={this.props.config.repoUrl}
+              href={this.props.config.githubUrl}
               data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
+              data-count-href="/verdoc-io/verdoc-documents/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub"
@@ -94,7 +111,7 @@ class Footer extends React.Component {
             </a>
           </div>
         </section>
-        <div style={{ textAlign: "center", color: "rgba(255, 255, 255, 0.4)" }}>
+        <div style={styles.powerBy}>
           <p>
             <b>Powered by</b>
           </p>
@@ -104,13 +121,13 @@ class Footer extends React.Component {
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource"
-          style={{ textAlign: "center", width: "auto" }}
+          style={styles.footerExisting}
         >
           <img
             src={`${this.props.config.baseUrl}${
               this.props.config.footerTheExisting
             }`}
-            alt="Facebook Open Source"
+            alt="The Existing company"
           />
         </a>
         <section className="copyright">
