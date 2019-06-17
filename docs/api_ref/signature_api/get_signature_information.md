@@ -6,8 +6,9 @@ sidebar_label: Get signature information
 
 <span class="badges get">get</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,16 +17,16 @@ GET https://api.verdoc.io/v1/signature
 ```
 
 <br/>
-**URL parameters**
+## URL parameters
 
 ---
 
 | Parameter      | Required | Package | Description    |
 | :------------- | :------: | :-----: | :------------- |
-| signature_hash |    ✅    |  free   | signature_hash |
+| signature_hash |    ✅     |  free   | signature_hash |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -37,7 +38,7 @@ Returns the status code 200 and a JSON object with the following information.
 | image_signature | String | `image_signature` |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

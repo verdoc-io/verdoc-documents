@@ -108,12 +108,12 @@ pre .btnIcon {
   right: 7px;
 }
 
+h2,
 p > strong {
   font-weight: 700;
   color: #423c5e;
-  /* border-left: 0.2em solid #8a81b3;
-  padding-left: 0.7em; */
   font-size: 1.1em;
+  margin-top: -15px;
 }
 
 .social_footer:hover {

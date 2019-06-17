@@ -6,8 +6,9 @@ sidebar_label: Verify transaction
 
 <span class="badges post">post</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,7 +17,7 @@ POST https://api.verdoc.io/v1/transaction/verify
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -25,20 +26,20 @@ POST https://api.verdoc.io/v1/transaction/verify
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
 | Parameters     |  Type  | Required | Package | Description      |
 | :------------- | :----: | :------: | :-----: | ---------------- |
-| transaction_id | String |    ✅    |  free   | `transaction_id` |
-| mobile_number  | String |    ✅    |  free   | `mobile_number`  |
-| payload        | String |    ✅    |  free   | `payload`        |
-| code           | String |    ✅    |  free   | `code`           |
-| signature_hash | String |    ✅    |  free   | `signature_hash` |
+| transaction_id | String |    ✅     |  free   | `transaction_id` |
+| mobile_number  | String |    ✅     |  free   | `mobile_number`  |
+| payload        | String |    ✅     |  free   | `payload`        |
+| code           | String |    ✅     |  free   | `code`           |
+| signature_hash | String |    ✅     |  free   | `signature_hash` |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -49,7 +50,7 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | Status code |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

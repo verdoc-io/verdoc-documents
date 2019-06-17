@@ -6,8 +6,9 @@ sidebar_label: Refresh access token
 
 <span class="badges post">post</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,7 +17,7 @@ POST https://api.verdoc.io/v1/auth/refresh
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -25,16 +26,16 @@ POST https://api.verdoc.io/v1/auth/refresh
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
 | Parameters    |  Type  | Required | Package | Description     |
 | :------------ | :----: | :------: | :-----: | --------------- |
-| refresh_token | String |    ✅    |  free   | `refresh_token` |
+| refresh_token | String |    ✅     |  free   | `refresh_token` |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -47,7 +48,7 @@ Returns the status code 200 and a JSON object with the following information.
 | refresh_token |   String   | `refresh_token` |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

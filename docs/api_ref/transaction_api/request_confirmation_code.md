@@ -6,8 +6,9 @@ sidebar_label: Request confirmation code
 
 <span class="badges post">post</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,7 +17,7 @@ POST https://api.verdoc.io/v1/transaction/code
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -25,7 +26,7 @@ POST https://api.verdoc.io/v1/transaction/code
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
@@ -34,11 +35,11 @@ POST https://api.verdoc.io/v1/transaction/code
 | channel        | String | Optional | premium | `channel` mobile, email |
 | mobile_number  | String | Optional | premium | `mobile_number`         |
 | email          | String | Optional | premium | `email`                 |
-| transaction_id | String |    ✅    |  free   | `transaction_id`        |
-| payload        | String |    ✅    |  free   | `payload`               |
+| transaction_id | String |    ✅     |  free   | `transaction_id`        |
+| payload        | String |    ✅     |  free   | `payload`               |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -49,7 +50,7 @@ Returns the status code 200 and a JSON object with the following information.
 | code     | String | `code`      |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

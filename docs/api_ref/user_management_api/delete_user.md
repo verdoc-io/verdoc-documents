@@ -6,8 +6,9 @@ sidebar_label: Delete user
 
 <span class="badges delete">delete</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,7 +17,7 @@ DELETE https://api.verdoc.io/v1/users/profile
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -25,17 +26,17 @@ DELETE https://api.verdoc.io/v1/users/profile
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
 | Parameters |  Type   | Required | Package | Description |
 | :--------- | :-----: | :------: | :-----: | ----------- |
-| user_id    | String  |    ✅    |  free   | `user_id`   |
-| force      | Boolean |    ✅    |  free   | `force`     |
+| user_id    | String  |    ✅     |  free   | `user_id`   |
+| force      | Boolean |    ✅     |  free   | `force`     |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -46,7 +47,7 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | Status code |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

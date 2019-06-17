@@ -6,8 +6,9 @@ sidebar_label: Create new signature
 
 <span class="badges post">post</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,7 +17,7 @@ POST https://api.verdoc.io/v1/signature
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -25,17 +26,17 @@ POST https://api.verdoc.io/v1/signature
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
 | Parameters      |    Type     | Required | Package | Description       |
 | :-------------- | :---------: | :------: | :-----: | ----------------- |
-| image_signature |   String    |    ✅    |  free   | `image_signature` |
+| image_signature |   String    |    ✅     |  free   | `image_signature` |
 | user            | user_object | Optional |  free   | `user`            |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -46,7 +47,7 @@ Returns the status code 200 and a JSON object with the following information.
 | signature_hash | String | `signature_hash` |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

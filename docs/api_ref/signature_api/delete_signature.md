@@ -6,8 +6,9 @@ sidebar_label: Delete signature
 
 <span class="badges delete">delete</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,7 +17,7 @@ DELETE https://api.verdoc.io/v1/signature
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -25,16 +26,16 @@ DELETE https://api.verdoc.io/v1/signature
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
 | Parameters     |  Type  | Required | Package | Description      |
 | :------------- | :----: | :------: | :-----: | ---------------- |
-| signature_hash | String |    ✅    |  free   | `signature_hash` |
+| signature_hash | String |    ✅     |  free   | `signature_hash` |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -45,7 +46,7 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | Status code |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

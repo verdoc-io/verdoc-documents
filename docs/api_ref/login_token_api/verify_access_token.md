@@ -6,8 +6,9 @@ sidebar_label: Verify access token
 
 <span class="badges get">get</span>
 <br/>
+<br/>
 
-**HTTP request**
+## HTTP request
 
 ---
 
@@ -16,16 +17,16 @@ GET https://api.verdoc.io/v1/auth/verify
 ```
 
 <br/>
-**URL parameters**
+## URL parameters
 
 ---
 
 | Parameter    | Required | Package | Description  |
 | :----------- | :------: | :-----: | :----------- |
-| access_token |    ✅    |  free   | Access token |
+| access_token |    ✅     |  free   | Access token |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -36,7 +37,7 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | `access_token` |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 

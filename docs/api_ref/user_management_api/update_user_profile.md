@@ -6,7 +6,9 @@ sidebar_label: Update user profile
 
 <span class="badges put">put</span>
 <br/>
-**HTTP request**
+<br/>
+
+## HTTP request
 
 ---
 
@@ -15,7 +17,7 @@ PUT https://api.verdoc.io/v1/users/profile
 ```
 
 <br/>
-**Request header**
+## Request header
 
 ---
 
@@ -24,19 +26,19 @@ PUT https://api.verdoc.io/v1/users/profile
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-**Request body**
+## Request body
 
 ---
 
 | Parameters    |  Type  | Required | Package | Description     |
 | :------------ | :----: | :------: | :-----: | --------------- |
-| user_id       | String |    ✅    |  free   | `user_id`       |
-| name          | String |    ✅    |  free   | `name`          |
-| email         | String |    ✅    |  free   | `email`         |
-| mobile_number | String |    ✅    |  free   | `mobile_number` |
+| user_id       | String |    ✅     |  free   | `user_id`       |
+| name          | String |    ✅     |  free   | `name`          |
+| email         | String |    ✅     |  free   | `email`         |
+| mobile_number | String |    ✅     |  free   | `mobile_number` |
 
 <br/>
-**Response**
+## Response
 
 ---
 
@@ -47,7 +49,7 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | Status code |
 
 <br/>
-**Example request**
+## Example request
 
 ---
 
