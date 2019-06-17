@@ -103,8 +103,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg",
+  ogImage: "img/facebook_link_cover.png",
+  twitterImage: "img/facebook_link_cover.png",
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
