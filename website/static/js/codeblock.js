@@ -24,9 +24,11 @@ window.addEventListener("load", function() {
     return btn;
   }
 
+  // pre > code
   function addButtons(codeBlockSelector, btn) {
     document.querySelectorAll(codeBlockSelector).forEach(function(code) {
       code.parentNode.appendChild(btn.cloneNode(true));
+      // add btn to pre
     });
   }
 
@@ -40,7 +42,9 @@ window.addEventListener("load", function() {
     ".hljs",
     button("Copy", "Copy code to clipboard", copyIcon, "btnClipboard")
   );
+
   // const clipboard tag by classname and set target parent that code tag
+  // target <copy/>
   const clipboard = new ClipboardJS(".btnClipboard", {
     target: function(trigger) {
       return trigger.parentNode.querySelector("code");

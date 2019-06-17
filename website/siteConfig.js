@@ -58,9 +58,10 @@ const siteConfig = {
   favicon: "img/favicon.ico",
 
   algolia: {
-    apiKey: "e39d9c22c905c44f45f980217bd91cf1",
-    placeholder: "Ask me something",
-    indexName: "Verdoc"
+    apiKey: "8c77506306be617a1e524bd5680503ff",
+    indexName: "verdoc",
+    placeholder: "Ask me something"
+
     // algoliaOptions: {
     //   facetFilters: ["language:LANGUAGE", "version:VERSION"]
     // }
