@@ -91,12 +91,18 @@ const siteConfig = {
   scripts: [
     "https://buttons.github.io/buttons.js",
     "https://code.jquery.com/jquery-3.4.1.js",
-    // "https://cdnjs.cloudflare.com/ajax/libs/styled-components/4.3.1/styled-components.min.js",
     "/js/cutter.js",
     "/js/codeblock.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"
   ],
 
+  stylesheets: [
+    "/css/custom.css",
+    "/css/algolia.css",
+    "/css/codeblock.css",
+    "/css/footer.css",
+    "/css/table.css"
+  ],
   // On page navigation for the current documentation page.
   onPageNav: "separate",
   // No .html extensions for paths.
