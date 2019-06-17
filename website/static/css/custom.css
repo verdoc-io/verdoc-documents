@@ -2,13 +2,24 @@
 body {
   font-size: 14px;
 }
+
+h2,
+p > strong {
+  font-weight: 700;
+  color: #423c5e;
+  font-size: 1.1em;
+  margin-top: -15px;
+}
+
 hr {
   margin: -0.7em auto 1em auto;
 }
+
+/* Table in docs */
+
 tr > th {
   background-color: #ededf7;
   color: #383342;
-  /* border-color: #000; */
 }
 
 tr > td,
@@ -19,6 +30,7 @@ tr > th {
 tr > td {
   font-size: 1em;
 }
+
 table tr:nth-child(2n) {
   background-color: #fff;
 }
@@ -29,6 +41,7 @@ table tr {
   border-top: 0.02px solid #e4e4e4;
 }
 
+/* Icon in codeblock */
 span.badges {
   /* span's docusaurus use block */
   display: inline !important;
@@ -108,16 +121,13 @@ pre .btnIcon {
   right: 7px;
 }
 
-h2,
-p > strong {
-  font-weight: 700;
-  color: #423c5e;
-  font-size: 1.1em;
-  margin-top: -15px;
-}
-
 .social_footer:hover {
   color: white !important;
+}
+
+/* Algolia */
+span.aa-dropdown-menu {
+  background-color: #fff !important;
 }
 
 @media (max-width: 736px) {
