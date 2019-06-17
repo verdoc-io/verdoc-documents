@@ -1,6 +1,6 @@
 ---
 id: create_new_ignature
-title: Create new signature.
+title: Create new signature
 sidebar_label: Create new signature
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: refresh-access-token
-title: Refresh access token.
+title: Refresh access token
 sidebar_label: Refresh access token
 ---
 

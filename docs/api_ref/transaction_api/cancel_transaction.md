@@ -1,6 +1,6 @@
 ---
 id: cancel_transaction
-title: Cancel transaction.
+title: Cancel transaction
 sidebar_label: Cancel transaction
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: get_signature_information
-title: Get signature information.
+title: Get signature information
 sidebar_label: Get signature information
 ---
 

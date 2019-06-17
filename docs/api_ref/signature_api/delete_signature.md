@@ -1,6 +1,6 @@
 ---
 id: delete_signature
-title: Delete signature.
+title: Delete signature
 sidebar_label: Delete signature
 ---
 

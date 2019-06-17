@@ -1,6 +1,6 @@
 ---
 id: request_confirmation_code
-title: Request confirmation code.
+title: Request confirmation code
 sidebar_label: Request confirmation code
 ---
 

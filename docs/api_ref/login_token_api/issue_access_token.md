@@ -1,6 +1,6 @@
 ---
 id: issue-access-token
-title: Issue access token.
+title: Issue access token
 sidebar_label: Issue access token
 ---
 

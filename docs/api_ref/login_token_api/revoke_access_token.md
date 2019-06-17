@@ -1,6 +1,6 @@
 ---
 id: revoke-access-token
-title: Revoke access token.
+title: Revoke access token
 sidebar_label: Revoke access token
 ---
 

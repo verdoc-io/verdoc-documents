@@ -1,6 +1,6 @@
 ---
 id: get_specific_user
-title: Get specific user.
+title: Get specific user
 sidebar_label: Get specific user
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: get_transaction_informations
-title: Get transaction informations.
+title: Get transaction informations
 sidebar_label: Get transaction informations
 ---
 

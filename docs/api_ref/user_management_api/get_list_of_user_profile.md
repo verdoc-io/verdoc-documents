@@ -1,6 +1,6 @@
 ---
 id: get_list_of_user_profile
-title: Get list of user profile.
+title: Get list of user profile
 sidebar_label: Get list of user profile
 ---
 

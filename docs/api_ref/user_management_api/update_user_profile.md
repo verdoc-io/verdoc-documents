@@ -1,6 +1,6 @@
 ---
 id: update_user_profile
-title: Update user profile.
+title: Update user profile
 sidebar_label: Update user profile
 ---
 

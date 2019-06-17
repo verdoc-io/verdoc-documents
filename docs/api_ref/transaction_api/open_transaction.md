@@ -1,6 +1,6 @@
 ---
 id: open_transaction
-title: Open transaction.
+title: Open transaction
 sidebar_label: Open transaction
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: delete_user
-title: Delete user.
+title: Delete user
 sidebar_label: Delete user
 ---
 

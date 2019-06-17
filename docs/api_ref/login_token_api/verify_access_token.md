@@ -1,6 +1,6 @@
 ---
 id: verify-access-token
-title: Verify access token.
+title: Verify access token
 sidebar_label: Verify access token
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: create_new_user
-title: Create new user.
+title: Create new user
 sidebar_label: Create new user
 ---
 
