@@ -3,8 +3,9 @@
     "API reference": [
       {
         "type": "subcategory",
-        "label": "Login Token API",
+        "label": "Access Token API",
         "ids": [
+          "api_ref/login_token_api/about-access-token",
           "api_ref/login_token_api/issue-access-token",
           "api_ref/login_token_api/refresh-access-token",
           "api_ref/login_token_api/revoke-access-token",
