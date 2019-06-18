@@ -84,14 +84,18 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "default"
+    // theme: "default",
+    // theme: "atom-one-dark",
+    // theme: "dracula",
+    // theme: "solarized-dark",
+    theme: "railscasts",
+    version: "9.15.8"
   },
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [
     "https://buttons.github.io/buttons.js",
     "https://code.jquery.com/jquery-3.4.1.js",
-    "/js/cutter.js",
     "/js/codeblock.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"
   ],

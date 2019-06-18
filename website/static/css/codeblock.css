@@ -32,15 +32,11 @@ pre {
 
 pre code {
   padding: 2em !important;
-  color: #fff !important;
+  /* color: #fff !important; */
   background-color: #383342 !important;
   border-radius: 6px;
   opacity: 0.9;
 }
-
-/* pre code {
-    color: #e57373 !important;
-  } */
 
 pre .btnIcon {
   position: absolute;
