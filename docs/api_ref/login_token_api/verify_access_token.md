@@ -6,9 +6,11 @@ sidebar_label: Verify access token
 
 <span class="badges get">get</span>
 <br/>
-<br/>
+
 
 To verify whether an access token is valid, send an HTTP `GET` request to the following endpoint with the access token in the query string.
+
+<br/>
 
 ## HTTP request
 
@@ -33,8 +35,8 @@ GET https://api.verdoc.io/v1/auth/verify
 ---
 If the access token is valid, a JSON response is returned the status code 200.
 
-| Property |    Type     | Description    |
-| :------- | :---------: | -------------- |
+| Property |    Type     | Description               |
+| :------- | :---------: | ------------------------- |
 | 200      | Status code | Access to token is valid. |
 
 <br/>
@@ -43,15 +45,16 @@ If the access token is valid, a JSON response is returned the status code 200.
 ---
 
 If the access token has expired or invalid, a 400 Bad Request status code is returned with the following JSON object.
+<br/>
 
-| Property |    Type     | Description    |
-| :------- | :---------: | -------------- |
-| 400      | Status code | Bad requested  |
-| Message  | String      | Error message  |
-
+| Property |    Type     | Description   |
+| :------- | :---------: | ------------- |
+| 400      | Status code | Bad requested |
+| Message  |   String    | Error message |
+<br/>
 ```json
 {
-  "message": "<Error message>"
+  "message": "Error message"
 }
 ```
 
@@ -61,5 +64,5 @@ If the access token has expired or invalid, a 400 Bad Request status code is ret
 ---
 
 ```bash
-curl -v -X GET 'https://api.verdoc.io/v1/auth/verify/access_token?access_token=<your_token>'
+curl -v -X GET 'https://api.verdoc.io/v1/auth/verify/access_token?access_token={your_token}'
 ```

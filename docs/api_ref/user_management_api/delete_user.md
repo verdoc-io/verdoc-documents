@@ -47,10 +47,18 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | Status code |
 
 <br/>
-## Example request
+## Error response
 
 ---
 
-```bash
-curl https://verdoc.io/
+| Property |    Type     | Description   |
+| :------- | :---------: | ------------- |
+| 400      | Status code | Bad requested |
+| Message  |   String    | Error message |
+<br/>
+```json
+{
+  "message": "Error message"
+}
 ```
+

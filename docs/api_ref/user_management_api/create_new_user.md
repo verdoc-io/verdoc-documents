@@ -50,10 +50,26 @@ Returns the status code 200 and a JSON object with the following information.
 | user_id  | String | `user_id`   |
 
 <br/>
+## Error response
+
+---
+
+| Property |    Type     | Description   |
+| :------- | :---------: | ------------- |
+| 400      | Status code | Bad requested |
+| Message  |   String    | Error message |
+<br/>
+```json
+{
+  "message": "Error message"
+}
+```
+
+<!-- <br/>
 ## Example request
 
 ---
 
 ```bash
 curl https://verdoc.io/
-```
+``` -->

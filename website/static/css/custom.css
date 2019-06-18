@@ -12,7 +12,7 @@ p > strong {
 }
 
 hr {
-  margin: -0.7em auto 1em auto;
+  margin: -0.7em auto 1.5em auto;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

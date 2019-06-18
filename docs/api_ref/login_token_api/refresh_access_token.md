@@ -6,6 +6,9 @@ sidebar_label: Refresh access token
 
 <span class="badges post">post</span>
 <br/>
+
+To refresh an access token, make an HTTP `POST` request to the following endpoint with the refresh token in the request body.
+
 <br/>
 
 ## HTTP request
@@ -39,7 +42,7 @@ POST https://api.verdoc.io/v1/auth/refresh
 
 ---
 
-Returns the status code 200 and a JSON object with the following information.
+If the call is successful, a new access token and refresh token are returned.
 
 | Property      |    Type    | Description     |
 | :------------ | :--------: | --------------- |
@@ -48,10 +51,31 @@ Returns the status code 200 and a JSON object with the following information.
 | refresh_token |   String   | `refresh_token` |
 
 <br/>
+## Error response
+
+---
+
+If the refresh token has expired or invalid, a 400 Bad Request status code is returned with the following JSON object.
+<br/>
+
+| Property |    Type     | Description   |
+| :------- | :---------: | ------------- |
+| 400      | Status code | Bad requested |
+| Message  |   String    | Error message |
+<br/>
+```json
+{
+  "message": "Error message"
+}
+```
+
+<br/>
 ## Example request
 
 ---
 
 ```bash
-curl https://verdoc.io/
+curl -v -X POST https://api.verdoc.io/v1/auth/refresh \
+-H 'Content-Type: application/json' \
+-d 'refresh_token={refresh_token}'
 ```

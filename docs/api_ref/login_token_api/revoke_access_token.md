@@ -6,6 +6,9 @@ sidebar_label: Revoke access token
 
 <span class="badges post">post</span>
 <br/>
+
+To revoke an access token, make an HTTP `POST` request to the following endpoint with the refresh token in the request body.
+
 <br/>
 
 ## HTTP request
@@ -46,10 +49,31 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | String | `access_token` |
 
 <br/>
+## Error response
+
+---
+
+If the access token has expired or invalid, a 400 Bad Request status code is returned with the following JSON object.
+<br/>
+
+| Property |    Type     | Description   |
+| :------- | :---------: | ------------- |
+| 400      | Status code | Bad requested |
+| Message  |   String    | Error message |
+<br/>
+```json
+{
+  "message": "Error message"
+}
+```
+
+<br/>
 ## Example request
 
 ---
 
 ```bash
-curl https://verdoc.io/
+curl -v -X POST https://api.verdoc.io/v1/auth/revoke \
+-H 'Content-Type: application/json' \
+-d 'access_token={access_token}'
 ```
