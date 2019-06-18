@@ -1,0 +1,25 @@
+/* Table in docs */
+
+tr > th {
+  background-color: #ededf7;
+  color: #383342;
+}
+
+tr > td,
+tr > th {
+  border-width: 0;
+  border: none;
+}
+tr > td {
+  font-size: 1em;
+}
+
+table tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+table tr {
+  background-color: transparent;
+  /* border-top: 0; */
+  border-top: 0.02px solid #e4e4e4;
+}

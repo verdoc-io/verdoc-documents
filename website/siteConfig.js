@@ -96,13 +96,13 @@ const siteConfig = {
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"
   ],
 
-  stylesheets: [
-    "/css/custom.css",
-    "/css/algolia.css",
-    "/css/codeblock.css",
-    "/css/footer.css",
-    "/css/table.css"
-  ],
+  // stylesheets: [
+  //   "/css/custom.css",
+  //   "/css/algolia.css",
+  //   "/css/codeblock.css",
+  //   "/css/footer.css",
+  //   "/css/table.css"
+  // ],
   // On page navigation for the current documentation page.
   onPageNav: "separate",
   // No .html extensions for paths.
