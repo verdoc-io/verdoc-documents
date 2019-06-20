@@ -61,12 +61,3 @@ Returns the status code 200 and a JSON object with the following information.
   "message": "Error message"
 }
 ```
-
-<!-- <br/>
-## Example request
-
----
-
-```bash
-curl https://verdoc.io/
-``` -->

@@ -41,7 +41,6 @@ Returns the status code 200 and a JSON object with the following information.
 
 ---
 
-
 | Property |    Type     | Description   |
 | :------- | :---------: | ------------- |
 | 400      | Status code | Bad requested |
@@ -49,7 +48,7 @@ Returns the status code 200 and a JSON object with the following information.
 <br/>
 ```json
 {
-  "message": "Error message"
+  "message": "Error message"    
 }
 ```
 

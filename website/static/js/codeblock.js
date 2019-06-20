@@ -37,7 +37,6 @@ window.addEventListener("load", function() {
 
   // .hljs is claasname for hightlight (Build in mapping markdwon app)
   // and create btn
-  // push to dom
   addButtons(
     ".hljs",
     button("Copy", "Copy code to clipboard", copyIcon, "btnClipboard")
