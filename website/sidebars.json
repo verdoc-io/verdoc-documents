@@ -3,44 +3,30 @@
     "API reference": [
       {
         "type": "subcategory",
-        "label": "Access Token API",
+        "label": "Registration API",
         "ids": [
-          "api_ref/login_token_api/about-access-token",
-          "api_ref/login_token_api/issue-access-token",
-          "api_ref/login_token_api/refresh-access-token",
-          "api_ref/login_token_api/revoke-access-token",
-          "api_ref/login_token_api/verify-access-token"
+          "api_ref/registration-api/about-register",
+          "api_ref/registration-api/admin-register"
         ]
       },
       {
-        "type": "subcategory",
-        "label": "Signature API",
-        "ids": [
-          "api_ref/signature_api/create_new_ignature",
-          "api_ref/signature_api/get_signature_information",
-          "api_ref/signature_api/delete_signature"
-        ]
       },
       {
         "type": "subcategory",
         "label": "Transaction API",
         "ids": [
-          "api_ref/transaction_api/open_transaction",
-          "api_ref/transaction_api/get_transaction_informations",
-          "api_ref/transaction_api/cancel_transaction",
-          "api_ref/transaction_api/request_confirmation_code",
-          "api_ref/transaction_api/verify_transaction"
+          "api_ref/transaction_api/opening-transaction",
+          "api_ref/transaction_api/get-transaction-information"
         ]
       },
       {
         "type": "subcategory",
-        "label": "User management API",
+        "label": "Admin management API",
         "ids": [
-          "api_ref/user_management_api/create_new_user",
-          "api_ref/user_management_api/get_list_of_user_profile",
-          "api_ref/user_management_api/get_specific_user",
-          "api_ref/user_management_api/delete_user",
-          "api_ref/user_management_api/update_user_profile"
+          "api_ref/admin_management_api/admin-generate-new-API-Key",
+          "api_ref/admin_management_api/delete-user",
+          "api_ref/admin_management_api/get-list-of-user",
+          "api_ref/admin_management_api/get-specific-user"
         ]
       }
     ]

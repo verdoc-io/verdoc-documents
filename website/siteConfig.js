@@ -43,7 +43,7 @@ const siteConfig = {
   headerLinks: [
     { href: "/", label: "Home" },
     { href: "https://verdoc.io/", label: "Subscribe" },
-    { doc: "api_ref/login_token_api/issue-access-token", label: "Docs" },
+    { doc: "api_ref/registration-api/about-register", label: "Docs" },
     { href: "https://github.com/verdoc-io/verdoc-documents", label: "Github" },
     { search: true }
   ],
