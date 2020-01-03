@@ -1,28 +1,37 @@
 ---
-id: get_list_of_user_profile
-title: Get list of user profile
-sidebar_label: Get list of user profile
+id: get-specific-user
+title: Get specific user
+sidebar_label: Get specific user
 ---
 
 <span class="badges get">get</span>
 <br/>
 <br/>
 
+To get list of the user, make an HTTP `GET` to the following endpoint with the information
+
+</br>
+
 ## HTTP request
 
 ---
 
 ```bash
-GET https://api.verdoc.io/v1/users
+GET https://api.verdoc.io/user/{{id}}
 ```
 
 <br/>
-## URL parameters
+
+## Request parameters
 
 ---
 
-None.
+| Parameter |    Type  | Required | Package | Description |
+| :-------- | :------: | :------: | :-----: | :---------- |
+| id        |  String  | optional |  free   | `user_id`   |
+
 <br/>
+
 ## Response
 
 ---
@@ -31,9 +40,10 @@ Returns the status code 200 and a JSON object with the following information.
 
 | Property      |  Type  | Description     |
 | :------------ | :----: | --------------- |
-| list of users | String | `list of users` |
+|  user         | String | `user`          |
 
 <br/>
+
 ## Error response
 
 ---
@@ -45,7 +55,7 @@ Returns the status code 200 and a JSON object with the following information.
 <br/>
 ```json
 {
-  "message": "Error message"
+  "message": "Error message"    
 }
 ```
 

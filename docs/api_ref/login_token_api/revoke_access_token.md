@@ -7,7 +7,7 @@ sidebar_label: Revoke access token
 <span class="badges post">post</span>
 <br/>
 
-To revoke an access token, make an HTTP `POST` request to the following endpoint with the refresh token in the request body.
+To revoke an access token, make an HTTP `POST` request to the following endpoint with information that we 
 
 <br/>
 

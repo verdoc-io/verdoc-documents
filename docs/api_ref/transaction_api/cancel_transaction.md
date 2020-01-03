@@ -1,5 +1,5 @@
 ---
-id: cancel_transaction
+id: cancel-transaction
 title: Cancel transaction
 sidebar_label: Cancel transaction
 ---
@@ -8,34 +8,33 @@ sidebar_label: Cancel transaction
 <br/>
 <br/>
 
+To delete specific transaction, make an HTTP `DELETE` to the following endpoint with the information
+
+</br>
+
 ## HTTP request
 
 ---
 
 ```bash
-DELETE https://api.verdoc.io/v1/transaction
+DELETE https://api.verdoc.io/transaction/{{id}}
 ```
 
 <br/>
-## Request header
 
----
-
-| Request header | Description                      |
-| :------------- | :------------------------------- |
-| Content-Type   | application/x-www-form-urlencode |
 
 <br/>
-## Request body
+
+## Request parameters
 
 ---
 
 | Parameters     |  Type   | Required | Package | Description      |
 | :------------- | :-----: | :------: | :-----: | ---------------- |
-| transaction_id | String  |    ✅     |  free   | `transaction_id` |
-| force          | Boolean |    ✅     |  free   | `force`          |
+| id             | String  |    ✅    |  free   | `transaction_id` |
 
 <br/>
+
 ## Response
 
 ---
@@ -47,6 +46,7 @@ Returns the status code 200 and a JSON object with the following information.
 | 200      | Status code | Status code |
 
 <br/>
+
 ## Error response
 
 ---
@@ -54,11 +54,12 @@ Returns the status code 200 and a JSON object with the following information.
 | Property |    Type     | Description   |
 | :------- | :---------: | ------------- |
 | 400      | Status code | Bad requested |
-| Message  |   String    | Error message |
+| error    |   Error     | Error message |
 <br/>
+
 ```json
 {
-  "message": "Error message"
+  "error": "Error message"
 }
 ```
 

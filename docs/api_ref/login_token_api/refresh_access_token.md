@@ -20,6 +20,7 @@ POST https://api.verdoc.io/v1/auth/refresh
 ```
 
 <br/>
+
 ## Request header
 
 ---
@@ -29,6 +30,7 @@ POST https://api.verdoc.io/v1/auth/refresh
 | Content-Type   | application/x-www-form-urlencode |
 
 <br/>
+
 ## Request body
 
 ---

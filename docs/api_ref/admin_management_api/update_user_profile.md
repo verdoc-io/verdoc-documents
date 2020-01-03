@@ -1,10 +1,10 @@
 ---
-id: create_new_user
-title: Create new user
-sidebar_label: Create new user
+id: update_user_profile
+title: Update user profile
+sidebar_label: Update user profile
 ---
 
-<span class="badges post">post</span>
+<span class="badges put">put</span>
 <br/>
 <br/>
 
@@ -13,7 +13,7 @@ sidebar_label: Create new user
 ---
 
 ```bash
-POST https://api.verdoc.io/v1/users/create
+PUT https://api.verdoc.io/v1/users/profile
 ```
 
 <br/>
@@ -23,7 +23,7 @@ POST https://api.verdoc.io/v1/users/create
 
 | Request header | Description                      |
 | :------------- | :------------------------------- |
-| Content-Type   | application/x-www-form-urlencode |
+| Content-Type   | application/json                 |
 
 <br/>
 ## Request body
@@ -32,11 +32,10 @@ POST https://api.verdoc.io/v1/users/create
 
 | Parameters    |  Type  | Required | Package | Description     |
 | :------------ | :----: | :------: | :-----: | --------------- |
+| user_id       | String |    ✅     |  free   | `user_id`       |
 | name          | String |    ✅     |  free   | `name`          |
 | email         | String |    ✅     |  free   | `email`         |
 | mobile_number | String |    ✅     |  free   | `mobile_number` |
-| company_name  | String |    ✅     |  free   | `company_name`  |
-| time_stamp    | String |    ✅     |  free   | `time_stamp`    |
 
 <br/>
 ## Response
@@ -45,14 +44,15 @@ POST https://api.verdoc.io/v1/users/create
 
 Returns the status code 200 and a JSON object with the following information.
 
-| Property |  Type  | Description |
-| :------- | :----: | ----------- |
-| user_id  | String | `user_id`   |
+| Property |    Type     | Description |
+| :------- | :---------: | ----------- |
+| 200      | Status code | Status code |
 
 <br/>
 ## Error response
 
 ---
+
 
 | Property |    Type     | Description   |
 | :------- | :---------: | ------------- |
@@ -64,12 +64,3 @@ Returns the status code 200 and a JSON object with the following information.
   "message": "Error message"
 }
 ```
-
-<!-- <br/>
-## Example request
-
----
-
-```bash
-curl https://verdoc.io/
-``` -->
