@@ -61,7 +61,8 @@ Returns the status code 201 and a JSON object with the following information.
 
 | Property |  Type  | Description |
 | :------- | :----: | ----------- |
-| adm_id  | String | `admin_id`   |
+| 201      | String | status code |
+| adm_id   | String | `admin_id`  |
 
 
 ```json

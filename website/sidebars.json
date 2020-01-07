@@ -15,7 +15,7 @@
         "type": "subcategory",
         "label": "Transaction API",
         "ids": [
-          "api_ref/transaction_api/opening-transaction",
+          "api_ref/transaction_api/transaction-service",
           "api_ref/transaction_api/get-transaction-information"
         ]
       },
