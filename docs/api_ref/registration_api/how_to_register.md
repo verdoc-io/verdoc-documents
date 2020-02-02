@@ -1,5 +1,5 @@
 ---
-id: about-register
+id: how_to_register
 title: About registration
 sidebar_label: How to register Verdoc API Service
 ---

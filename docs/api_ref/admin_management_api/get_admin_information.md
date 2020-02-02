@@ -1,5 +1,5 @@
 ---
-id: get-admin-information
+id: get_admin_information
 title: Get admin information
 sidebar_label: Get admin information
 ---

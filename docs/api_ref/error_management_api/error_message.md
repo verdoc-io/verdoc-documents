@@ -1,5 +1,5 @@
 ---
-id: error-management-api
+id: error_management_api
 title: Error response
 sidebar_label: Error message api
 ---

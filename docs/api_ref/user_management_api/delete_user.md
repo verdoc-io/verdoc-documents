@@ -1,5 +1,5 @@
 ---
-id: delete-user
+id: delete_user
 title: User deletion
 sidebar_label: User deletion
 ---

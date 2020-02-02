@@ -1,5 +1,5 @@
 ---
-id: update-admin-information
+id: update_admin_information
 title: Update admin information
 sidebar_label: Update admin information
 ---

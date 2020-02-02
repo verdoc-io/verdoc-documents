@@ -1,5 +1,5 @@
 ---
-id: admin-generate-new-API-Key
+id: admin_generate_new_apikey
 title: API Key Generator
 sidebar_label: API Key Generator
 ---

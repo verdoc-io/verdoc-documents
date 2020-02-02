@@ -1,5 +1,5 @@
 ---
-id: get-all-user-information
+id: get_all_user_information
 title: Get all user information
 sidebar_label: Get all user information
 ---

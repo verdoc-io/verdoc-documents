@@ -1,5 +1,5 @@
 ---
-id: delete-admin
+id: delete_admin
 title: Admin Deletion
 sidebar_label: Admin Deletion
 ---

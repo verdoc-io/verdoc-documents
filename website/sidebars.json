@@ -5,60 +5,48 @@
         "type": "subcategory",
         "label": "Registration API",
         "ids": [
-          "api_ref/registration-api/about-register",
-          "api_ref/registration-api/admin-register"
-        ]
-      },
-      {
-      },
-      {
-        "type": "subcategory",
-        "label": "Transaction API",
-        "ids": [
-          "api_ref/transaction_api/transaction-service",
-          "api_ref/transaction_api/get-transaction-information"
+          "api_ref/registration_api/how-to-register",
+          "api_ref/registration_api/admin_register"
         ]
       },
       {
         "type": "subcategory",
         "label": "Admin Management API",
         "ids": [
-          "api_ref/admin_management_api/get-admin-information",
-          "api_ref/admin_management_api/get-all-admin-information",
-          "api_ref/admin_management_api/update-admin-information",
-          "api_ref/admin_management_api/delete-admin",
-          "api_ref/admin_management_api/admin-generate-new-API-Key"
+          "api_ref/admin_management_api/get_admin_information",
+          "api_ref/admin_management_api/get_all_admin_information",
+          "api_ref/admin_management_api/update_admin_information",
+          "api_ref/admin_management_api/delete_admin",
+          "api_ref/admin_management_api/admin_generate_new_apikey"
         ]
       },
       {
         "type": "subcategory",
         "label": "User Management API",
         "ids": [
-          "api_ref/admin_management_api/get-all-user-information",
-          "api_ref/admin_management_api/get-user-information",
-          "api_ref/admin_management_api/update-user-information",
-          "api_ref/admin_management_api/delete-user"
+          "api_ref/admin_management_api/get_all_user_information",
+          "api_ref/admin_management_api/get_user_information",
+          "api_ref/admin_management_api/update_user_information",
+          "api_ref/admin_management_api/delete_user"
         ]
       },
       {"type": "subcategory",
         "label": "Transaction Management API",
         "ids":[
-          "api_ref/transaction_management/b2b-example",
-          "api_ref/transaction_management/b2c-example",
-          "api_ref/transaction_management/c2c-example"
         ]
       },
       {"type": "subcategory",
         "label": "Error",
         "ids":[
-          "api_ref/error-management-api/error-management-api"
+          "api_ref/error_management_api/error_management_api"
         ]
       },
       {"type": "subcategory",
-        "label": "Get API Example",
+        "label": "Use-case Example",
         "ids":[
-          "api_ref/get-api-example/get-users-example",
-          "api_ref/get-api-example/get-user-example"
+          "api_ref/usecase_example/b2b-example",
+          "api_ref/usecase_example/b2c-example",
+          "api_ref/usecase_example/c2c-example"
         ]
       }
     ]

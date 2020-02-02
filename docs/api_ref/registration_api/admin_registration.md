@@ -1,14 +1,14 @@
 ---
-id: company-register
-title: Company registration
-sidebar_label: Company registration
+id: admin_register
+title: Admin registration
+sidebar_label: Admin registration
 ---
 
 <span class="badges post">post</span>
 <br/>
 <br/>
 
-To register the company, make an HTTP `POST`
+To register the admin, make an HTTP `POST`
 to the following endpoint with the information on the registration form that we provide
 
 </br> 
@@ -22,7 +22,7 @@ POST https://verdoc-register-page.firebaseapp.com/
 
 </br>
 
->**Note**: There are two parts you need to do, The first is `Form Submit` and the second is `Form Upload Image`.
+>**Note** : There are two parts you need to do, The first is `Form Submit` and the second is `Form Upload Image`.
 
 </br>
 
@@ -43,11 +43,14 @@ POST https://verdoc-register-page.firebaseapp.com/
 | Parameters                    |  Type  | Required | Package | Description                   |
 | :---------------------------- | :----: | :------: | :-----: | ----------------------------- |
 | name                          | String |    ✅    |  free   | `name`                        |
-| company_registration_number   | String |    ✅    |  free   | `company_registration_number` |
-| company_registration_date     | int64  |    ✅    |  free   | `company_registration_date`   |
 | email                         | String |    ✅    |  free   | `email`                       |
 | password                      | String |    ✅    |  free   | `password`                    |
+| gender                        | String |    ✅    |  free   | `gender`                      |
+| birthday                      | Int64  |    ✅    |  free   | `birthday`                    |
+| national_id                   | String |    ✅    |  free   | `national_id`                 |
+| passport_number               | String |    ✅    |  free   | `passport_number`             |
 | phone_number                  | String |    ✅    |  free   | `phone_number`                |
+| company_name                  | String |    ✅    |  free   | `name`                        |
 | country                       | String |    ✅    |  free   | `country`                     |
 
 </br>
@@ -58,12 +61,13 @@ Returns the status code 201 and a JSON object with the following information.
 
 | Property |  Type  | Description |
 | :------- | :----: | ----------- |
-| comp_id  | String | `company_id`   |
+| 201      | String | status code |
+| adm_id   | String | `admin_id`  |
 
 
 ```json
 {
-  "comp_id": "company_id"
+  "adm_id": "admin_id"
 }
 ```
 </br>
@@ -99,7 +103,9 @@ Returns the status code 201 and a JSON object with the following information.
 ---
 | Parameters                    |  Type     | Required | Package | Description                   |
 | :---------------------------- | :-------: | :------: | :-----: | ----------------------------- |
-| company-registration-img      | form-data |    ✅    |  free   | `company-registration-img`    |
+| pictureProfile                | File      |    ✅    |  free   | `profile-picture`             |
+| picturePassport               | File      |    ✅    |  free   | `passport-picture`            |
+| pictureNation                 | File      |    ✅    |  free   | `nation-picture`              |
 
 </br>
 

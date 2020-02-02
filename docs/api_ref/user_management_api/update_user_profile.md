@@ -1,5 +1,5 @@
 ---
-id: update-user-information
+id: update_user_information
 title: Update user informtion
 sidebar_label: Update user information
 ---
