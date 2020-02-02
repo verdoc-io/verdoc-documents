@@ -41,8 +41,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { href: "/", label: "Home" },
-    { href: "https://verdoc.io/", label: "Subscribe" },
+    { href: "https://verdoc.io/", label: "Home" },
     { doc: "api_ref/registration-api/about-register", label: "Docs" },
     { href: "https://github.com/verdoc-io/verdoc-documents", label: "Github" },
     { search: true }
@@ -52,15 +51,15 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/verdoc_mono_white.svg",
-  footerIcon: "img/v_white_with_sign.svg",
+  headerIcon: "img/logo_verdoc_white.svg",
+  footerIcon: "img/logo_v_white.svg",
   footerTheExisting: "img/existing_white.svg",
   favicon: "img/favicon.ico",
 
   algolia: {
-    apiKey: "8c77506306be617a1e524bd5680503ff",
-    indexName: "verdoc",
-    placeholder: "Ask me something"
+    apiKey: "cbf5678af4041a6947432610278f74d6",
+    indexName: "verdoc_document",
+    placeholder: "Ask me something..."
 
     // algoliaOptions: {
     //   facetFilters: ["language:LANGUAGE", "version:VERSION"]
