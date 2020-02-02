@@ -1,54 +1,49 @@
 ---
 id: admin-generate-new-API-Key
-title: Admin's API Key generator
-sidebar_label: Admin's API Key generator
+title: API Key Generator
+sidebar_label: API Key Generator
 ---
+</br>
 
 <span class="badges post">post</span>
-<br/>
-<br/>
-
-To generate new API Key, make an HTTP `POST` to the following endpoint with the information
-
-</br>
-
-## HTTP request
-
 ---
+ To generate new API Key
+
+
+
+***Endpoint:***
 
 ```bash
-POST https://api.verdoc.io/apikey-generator
+Method: POST
+URL: https://api.verdoc.io/apikey
 ```
 
-</br>
 
-## Request body
----
+***Headers:***
+​
+| Key | Value | Description |
+| --- | ------|-------------|
+| Authorization | bearerToken {{access_token}} | Valid `access_token` |
 
-| Parameters      |  Type  | Required | Package | Description       |
-| :-------------- | :----: | :------: | :-----: | ----------------- |
-| email           | String |    ✅    |  free   | `email`           |
-| password        | String |    ✅    |  free   | `password`        |
+***Body:***
+​
+| Parameters     |  Type  | Required | Description              |
+| :------------- | :----: |:----: | :------------------------ |
+| email          | String | ✅    |The email must be a string (`string`)            |
+| phone          | String | ✅    | password           |
 
-</br>
-
-## Response
-
----
-
-Returns the status code 200 and a JSON object with the following information.
-
-| Property |  Type       | Description |
-| :------- | :---------: | ----------- |
-| 200      | Status code | status code |
-| ID       | String      | `id`        |
-| comp_id  | String      | `comp_id`   |
-| key      | String      | `key`       |
-| level    | String      | `level`     |
-| status   | Boolean     | `status`    |
-| create_at| int64       | `create_at` |
-| update_at| int64       | `update_at` |
-| delete_at| int64       | `delete_at` |
+### ***Success Responses:***
+​
+Status code: `200` HTTP status code and a JSON object with the following information:
+​
+| Property       |  Type  | Description              |
+| :------------- | :----: | ------------------------ |
+| id             | String | API Key's `id`           |
+| key            | Long   | API Key                  |
+| level          | String | `level` of this API Key  |
+| status         | Boolean | Status of the API Key   |
+| create_at      | Int64  | 
+| site_admin     | Bool   | user's `permission`      |
 
 ```json
 {
@@ -63,22 +58,18 @@ Returns the status code 200 and a JSON object with the following information.
 }
 ```
 
-<br/>
-
-## Error response
-
----
-
-| Property |    Type     | Description   |
-| :------- | :---------: | ------------- |
-| 400      | Status code | Bad requested |
-| error    |   Error     | Error message |
-
-<br/>
-
+### ***Error Responses:***
+​
+Status code: `400` HTTP status code and a JSON object with the following information:
+​
+| Status Code |     error_message   |
+| :-------    | :---------          | 
+| 400    |  Appears when calling an API that you do not have permission to use. |
+​
+​
 ```json
 {
-  "error": "Error message"
+  "message": "{error_message}"
 }
 ```
 
