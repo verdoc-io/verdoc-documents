@@ -4,19 +4,19 @@ title: Error response
 sidebar_label: Error message api
 ---
 
-
 <br/>
 
 # Errors
 
 ---
 </br>
+
 ## Status codes
 ​
 The following HTTP status codes are returned after an API call.
 ​
 | Code     | Status                |     error_message     |
-| :------- | :-------------------: |---------------------- |
+| :------- | :------------------- |---------------------- |
 | 200      | OK                    | Request successful|
 | 400      |  Bad requested        | Problem with the request. Check the request parameters and JSON format. |
 | 401      |  Unauthorized         | Check that the authorization header is correct. |
