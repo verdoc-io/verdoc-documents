@@ -33,6 +33,7 @@
       {"type": "subcategory",
         "label": "Transaction Management API",
         "ids":[
+          "api_ref/error_management_api/open_transaction"
         ]
       },
       {"type": "subcategory",
@@ -44,9 +45,9 @@
       {"type": "subcategory",
         "label": "Use-case Example",
         "ids":[
-          "api_ref/usecase_example/b2b-example",
-          "api_ref/usecase_example/b2c-example",
-          "api_ref/usecase_example/c2c-example"
+          "api_ref/usecase_example/b2b_example",
+          "api_ref/usecase_example/b2c_example",
+          "api_ref/usecase_example/c2c_example"
         ]
       }
     ]

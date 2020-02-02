@@ -31,8 +31,8 @@ URL: https://api.verdoc.io/user
 ​
 | Parameters     |  Type  | Required | Description              |
 | :------------- | :----: |:----: | :------------------------ |
-| name           | String | ❎  |The name must be a string (`string`)  |
-| phone          | String | ❎  | The phone_number must be a string (`string`)  |
+| name           | String | -  |The name must be a string (`string`)  |
+| phone          | String | -  | The phone_number must be a string (`string`)  |
 
 
 ###***Success Responses:***

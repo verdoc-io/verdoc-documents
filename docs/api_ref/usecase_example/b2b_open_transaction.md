@@ -1,5 +1,5 @@
 ---
-id: b2b-example
+id: b2b_example
 title: [B2B] Open transaction
 sidebar_label: [B2B] Open transaction
 ---
@@ -10,17 +10,16 @@ sidebar_label: [B2B] Open transaction
 To create new `[B2B]` transaction.
 
 </br>
-​
+
 ***Endpoint:***
-​
+
 ```bash
 Method: POST
 URL: https://api.verdoc.io/transaction
 ```
 
-​
 ***Headers:***
-​
+
 | Key | Value | Description |
 | --- | ------|-------------|
 | Content-Type | application/json | Data type |
@@ -39,7 +38,7 @@ URL: https://api.verdoc.io/transaction
 | s_phone_number | String | ✅  | Supplier `phone_number` must be a string (`string`)  |
 | r_name         | String | ✅  |Tailer name must be a string (`string`)  |
 | r_phone_number | String | ✅  | Tailer `phone_number` must be a string (`string`)  |
-| previous_id    | String | ❎  | Optional for chain the transaction must be a string (`string`)  |
+| previous_id    | String | -  | Optional for chain the transaction must be a string (`string`)  |
 | type           | String | ✅  | Type `B2B` and must be a string (`string`)  |
 
 >**Note** : Specefic `type` to `B2B`.
@@ -47,7 +46,7 @@ URL: https://api.verdoc.io/transaction
 ### ***Success Responses:***
 ​
 Status code: `200` HTTP status code and a JSON object with the following information:
-​
+
 | Property       |  Type  | Description              |
 | :------------- | :----: | ------------------------ |
 | trans_id       | LongString | ID of the transaction    |
@@ -76,12 +75,11 @@ Status code: `200` HTTP status code and a JSON object with the following informa
 ### ***Error Responses:***
 ​
 Status code: `400` HTTP status code and a JSON object with the following information:
-​
+
 | Status Code |     error_message   |
 | :-------    | :---------          | 
 | 400    |  The JSON in the request body could not be parsed. The specific line and column are displayed. |
 | 400    |  Appears when calling an API that you do not have permission to use. |
-​
 ​
 ```js
 {
