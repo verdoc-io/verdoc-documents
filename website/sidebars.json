@@ -5,7 +5,7 @@
         "type": "subcategory",
         "label": "Registration API",
         "ids": [
-          "api_ref/registration_api/how-to-register",
+          "api_ref/registration_api/how_to_register",
           "api_ref/registration_api/admin_register"
         ]
       },
