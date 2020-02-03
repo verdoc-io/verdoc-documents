@@ -42,7 +42,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { href: "https://verdoc.io/", label: "Home" },
-    { doc: "api_ref/registration-api/about-register", label: "Docs" },
+    { doc: "api_ref/registration_api/how_to_register", label: "Docs" },
     { href: "https://github.com/verdoc-io/verdoc-documents", label: "Github" },
     { search: true }
   ],
